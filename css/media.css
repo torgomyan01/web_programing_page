@@ -1,0 +1,187 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media (max-width: 576px) {
+    .video .body_form form input:nth-of-type(2){
+        font-size: 12px;
+    }
+    .video .body_form form{
+        margin: 10px;
+    }
+    .video .body_form .text_foo{
+        margin: 10px;
+    }
+    footer{
+        height: auto;
+    }
+    .about_us .about_us_img{
+        background-size: auto;
+        margin: 10px;
+    }
+    .all_prijects .body_all_prijects .all_prijects_text{
+        margin: 10px;
+    }
+    .about_us .body_about_us .about_us_text {
+        max-width: calc(100% - 20px);
+        height: auto;
+    }
+    .about_us .body_about_us .about_us_text .about_us_text_title{
+        text-align: center;
+    }
+    .about_us .body_about_us .about_us_text .about_us_text_text{
+        text-align: center;
+    }
+    .about_us .body_about_us .about_us_text .about_us_text_next{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .all_service .title_all_service .text_title_all_service{
+        font-size: 32px;
+    }
+
+}
+    
+    
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+    header nav .first-screen__menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000000db;
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+        text-align: center;
+        position: fixed;
+        transition: 0.5s;
+        transform: translateY(-100vh);
+    }
+    header nav .first-screen__menu a{
+        width: 100%;
+        border: 0px;
+        padding: 0px;
+
+    }
+    header nav{
+        border: 0px;
+        height: auto;
+    }
+    .services{
+        height: auto;
+    }
+    .services .serv_body{
+        height: auto;
+    }
+    .services .working{
+        flex-wrap: wrap;
+    }
+    .about_us .about_us__body{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    .all_service{
+        height: auto;
+    }
+    .all_service .all_service_item .all_service_item_body{
+        width: 300px;
+    }
+    .all_service .all_service_item .all_service_item_body .all_service_item_body_img{
+        width: 300px;
+        height: 300px;
+    }
+    .all_service .all_service_item .all_service_item_body .all_service_title{
+        font-size: 22px;
+    }
+    footer .corp_site {
+        line-height: 60px;
+        margin: 0;
+    }
+    .about_us .about_us__body .about_coll{
+        margin: 5px;
+    }
+    .all_service .title_all_service .title_all_service_button{
+        transform: translateY(30px);
+    }
+    header .contener h1{
+        margin: 10px;
+    }
+    header .contener{
+        margin-top: 55px;
+    }
+    p{
+        margin: 10px ;
+    }
+    .mob_menu{
+        display: block;
+    }
+    section{
+        z-index: -1;
+    }
+    footer{
+        z-index: -1;
+    }
+}
+    
+    
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) {
+    .about_us .body_about_us{
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+    .about_us{
+        height: auto;
+    }
+    .all_service .title_all_service{
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+        text-align: center;
+    }
+    .all_service .title_all_service a{
+        display: block;
+        margin: 0 auto;
+    }
+    .all_prijects .body_all_prijects .all_prijects_img{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .all_prijects .body_all_prijects .all_prijects_img .img_all_proj{
+        margin: 10px;
+    }
+    .about_us .about_us__body .about_coll .about_us_icon_num .about_us_icon_num{
+        flex-wrap: wrap;
+    }
+    .about_us .about_us__body .about_coll .about_us_icon_num .about_us_icon {
+        width: 60px;
+        height: 50px;
+        background-size: 30px;
+        margin: 0px;
+    }
+    
+}
+    
+    
+    
+/* Large devices (desktops, 992px and up) */
+@media(max-width: 1200px) {
+    .all_service{
+        height: auto;
+        z-index: -1;
+    }
+    footer .body_footer{
+        flex-wrap: wrap;
+    }
+    footer .body_footer .contact_{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1400px) {
+    .all_service .all_service_item{
+        flex-wrap: wrap;
+        border: 0px;
+    }
+}
