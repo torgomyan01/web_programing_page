@@ -638,7 +638,6 @@ footer {
   width: 60px;
   height: 60px;
   text-align: center;
-  z-index: 10000;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
 

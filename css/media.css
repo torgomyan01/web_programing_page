@@ -34,10 +34,39 @@
         display: block;
         width: 100%;
     }
-    .all_service .title_all_service .text_title_all_service{
-        font-size: 32px;
+    .all_service .title_all_service .text_title_all_service {
+        font-size: 22px;
+        line-height: 40px;
+        margin-top: -32px;
     }
-
+    header .contener h1 {
+        font-size: 40px;
+    }
+    header {
+        height: 535px;
+    }
+    .services .serv_body h2 {
+        line-height: 30px;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .services .serv_body .services_sec {
+        margin-top: 20px;
+    }
+    .services .working {
+        margin-top: 35px;
+    }
+    .about_us .body_about_us .about_us_text .about_us_text_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .all_service .title_all_service a {
+        margin-top: -20px;
+    }
+    .all_prijects .body_all_prijects .wiev_full_text {
+        margin-top: 22px;
+        margin-bottom: -55px;
+    }
 }
     
     
@@ -116,9 +145,6 @@
     .mob_menu{
         display: block;
     }
-    section{
-        z-index: -1;
-    }
     footer{
         z-index: -1;
     }
@@ -169,7 +195,6 @@
 @media(max-width: 1200px) {
     .all_service{
         height: auto;
-        z-index: -1;
     }
     footer .body_footer{
         flex-wrap: wrap;
